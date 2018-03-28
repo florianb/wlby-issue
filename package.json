@@ -1,0 +1,39 @@
+{
+  "name": "wlby-issue",
+  "version": "1.0.0-1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava",
+    "check": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:florianb/wlby-issue.git"
+  },
+  "author": "florian.breisch@mindkeeper.solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "ava": "^1.0.0-beta.3",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "is-path-in-cwd": "^1.0.0",
+    "meow": "^4.0.0",
+    "nodegit": "^0.21.0",
+    "simple-git": "^1.85.0",
+    "sinon": "^4.4.9",
+    "tempy": "^0.2.1",
+    "untildify": "^3.0.2"
+  },
+  "xo": {
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ]
+    }
+  }
+}
